@@ -1,0 +1,106 @@
+
+//Наша команда
+
+
+ .headline {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding-top: 30px;
+    
+     }
+      
+    .user{
+     background: $features-bg-color;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 708px;
+    padding-top: 94px;
+    }
+    
+    .caption{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $sec-txt-color;
+    text-decoration: none;
+    }
+  
+  .our-team {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+  
+  .our-team li{
+    background: $main-bg-color;
+  
+  }
+  
+  .our-team{
+   display: flex;
+   padding: 0;
+    margin: 0;
+   
+  
+    }
+    
+  .our-items{
+   width: calc((100% - 30px * 3) / 4);
+    margin-right: 30px;
+  }
+  
+  .our-items:nth-child(4n+0) {
+    margin-right: 0;
+  }
+  
+  .our-items {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;}
+    
+  
+  .social-flex{
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    color:#afb1b8 ;
+    
+  }
+  
+  .social:hover,
+  .social:focus {
+     background-color: $accent-color;
+     color: #ffffff;
+     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .icon-social {
+    fill: currentColor;
+  }
+  
+  
+  

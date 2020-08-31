@@ -1,0 +1,59 @@
+
+//Особенности
+
+.features-block {
+    display:flex;
+     height: 120px;
+     width: 270px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+ }
+ .icon-features{
+    height: 70px;
+     width: 70px;
+     
+ }
+ 
+ .features{
+   display: flex;
+   padding: 0;
+   margin: 0;
+   padding-top: 94px;
+   padding-bottom: 94px;
+   width: calc((1200 - 90px) / 4);
+ }
+ .features li {
+    margin-right: 30px;
+ }
+ .features li:nth-child(4n+0) {
+   margin-right: 0;
+ }
+ .feature li:not(:last-child) {
+   margin-right: 30px;
+   padding:  0;
+   margin: 0;
+ }
+ 
+ 
+ .text { 
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     color: $sec-txt-color;
+ 
+ }
+ 
+ .section {
+ list-style:none;
+ display: flex;
+ padding: 0;
+ margin: 0;
+
+ }
+ 

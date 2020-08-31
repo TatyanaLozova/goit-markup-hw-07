@@ -1,0 +1,85 @@
+.overlay {
+    background-image: linear-gradient(
+      
+     rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)
+        
+     ), url(../images/дз4/Header.jpg);
+      background-color: #000000;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-bottom: 94px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 600px;
+    }
+    
+  
+  .title {
+  font-family: "Roboto", sans-serif;
+  color: $part-txt-color;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 200px;
+  }
+  
+  .conteiner-title{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  
+  }  
+  
+  h1,h2, h3, h4{
+    margin: 0;
+  }
+  .hidden {
+  color: $part-txt-color;
+  }
+  
+  .btn:hover,
+   .btn:focus{background: $accent-bg-color;
+  color: $features-bg-color;
+  }
+  
+  //h2
+  
+  .subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:  $main-txt-color;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  align-items: center;
+  
+  }
+  
+  /*h3*/
+  
+  .heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 10px;
+  
+  }

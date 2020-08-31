@@ -1,0 +1,171 @@
+//футер
+
+
+.footer{
+    font-family: "Roboto", sans-serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background: $footer-bg-color ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+       
+    
+  }
+    
+    .logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color:$part-txt-color;
+    
+    }
+    .logo-footerpart {
+      color: $accent-color;
+    }
+    .footer-block > a.logo {
+      display: inline-block;
+      margin-top: 60px;
+      margin-left: 0;
+    }
+  
+  .address {
+       margin-top: 20px;
+      list-style: none;
+    color: $part-txt-color;
+    list-style: none;
+      padding: 0;
+  }
+  .block-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .address .contacts {
+    color: $part-txt-color;
+    list-style: none;
+    padding: 0;
+  }
+    .contacts {
+    font-style: normal;
+    color: $part-txt-color;
+    text-decoration: none;
+    }
+    
+    .contacts-item {
+      display: block;
+      text-decoration: none;
+      font-style: normal;
+      list-style: none;
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 9px;
+    }
+  
+    .footer > .conteiner {
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-block >.heder-social{
+      display: flex;
+      justify-content: space-evenly;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    
+    .footer-social  {
+      display: flex;
+       list-style: none;
+    
+    }
+    .link-items:not(:last-child) {
+        margin-right: 10px;
+      }
+  
+    .heder-social{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $part-txt-color;
+    }
+    
+  .soc-footer {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .soc-footer:hover,
+  .soc-footer:focus {
+  background-color: $accent-color;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  
+    .aside {
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color:$part-txt-color;
+    }
+    
+    .button {
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    color: $part-txt-color;
+    background:$accent-bg-color;
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    
+    }
+    .button:focus,
+     .button:hover {background:$accent-bg-color;
+    color: $features-bg-color;
+     }
+       
+  //кнопка футер
+   .fly::after {
+    display:inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url(../images/дз4/fly.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+   
+  }
+  
+      
+  

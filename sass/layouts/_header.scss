@@ -1,0 +1,132 @@
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $main-txt-color;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+    .logo-part {
+      color:$accent-color;
+    }
+    .site-nav {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      letter-spacing: 0.02em;
+    
+    }
+    .conteiner-a {
+      width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+    
+    
+    .flexbox {
+    display: flex;
+    
+    }
+    
+    .menu-link {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+    
+      position: relative;
+      display: block;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    
+    .menu-link:focus,
+    .menu-link:hover {
+      color:  #2196f3;
+      fill:  #2196f3;
+    
+    }
+    .menu-link:focus,
+    .menu-link:hover {
+      color:$accent-color;
+    
+      }
+    .menu-list {
+      list-style: none;
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      }
+    
+      .menu-list li {
+       
+    margin-right: 50px;
+    
+      }
+    
+      .menu-contact{
+      list-style: none;
+      align-items: center;
+      text-decoration: none;
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      }
+      .menu-contact li {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-right: 30px;
+      }
+    
+    .menu-item {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em; 
+    color: $sec-txt-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    .menu-contact li:nth-child(2n+0){
+      margin-right: 0;
+    }
+    
+    .menu-item {
+      color: #757575;
+     fill: #757575;
+    }
+    
+    .menu-item:focus,
+    .menu-item:hover {
+     color:  #2196f3;
+     fill:  #2196f3;
+    }
+    
+     .icon-mail {
+     margin-right: 10px;
+     width: 16px;
+     height: 12px;
+     fill: currentColor;
+     }
+    
+     .icon-smartphone{
+     margin-right: 10px;
+     width: 10px;
+     height: 15px;
+     fill: currentColor;
+     }
+    
+    
+    

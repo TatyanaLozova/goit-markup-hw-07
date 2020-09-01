@@ -1,5 +1,5 @@
 
- /*<!--Чем мы занимаемся-->*/
+//Чем мы занимаемся
 
  .heading-item {
     font-style: normal;
@@ -27,25 +27,27 @@
   .item {
   width: calc((100% - 60px) / 3);
   position: relative;
-  }
   
+  &:nth-child(3n+0) {
+    margin-right: 0;}
+  }
   .product {
     list-style: none;
     display: flex;
     padding: 0;
     margin: 0;
-     
+
+    & li {
+      margin-right: 30px;}
+             
     }
+
+
     .products{
       padding-bottom: 94px;
     }
     
-  .product li {
-    margin-right: 30px;
-  }
-  .item:nth-child(3n+0) {
-    margin-right: 0;
-  }
+ 
   
   
   

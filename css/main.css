@@ -670,7 +670,7 @@ h1, h2, h3, h4 {
   display: flex;
   height: 120px;
   width: 270px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   -webkit-box-align: center;
@@ -696,7 +696,6 @@ h1, h2, h3, h4 {
   color: #757575;
 }
 
-/*<!--Чем мы занимаемся-->*/
 .heading-item {
   font-style: normal;
   font-weight: bold;
@@ -728,6 +727,10 @@ h1, h2, h3, h4 {
   position: relative;
 }
 
+.item:nth-child(3n+0) {
+  margin-right: 0;
+}
+
 .product {
   list-style: none;
   display: -webkit-box;
@@ -737,16 +740,12 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-.products {
-  padding-bottom: 94px;
-}
-
 .product li {
   margin-right: 30px;
 }
 
-.item:nth-child(3n+0) {
-  margin-right: 0;
+.products {
+  padding-bottom: 94px;
 }
 
 .headline {

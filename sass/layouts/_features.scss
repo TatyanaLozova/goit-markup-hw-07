@@ -34,7 +34,7 @@
     display:flex;
      height: 120px;
      width: 270px;
-    background-color: #F5F4FA;
+    background-color:$features-bg-color;
     border-radius: 4px;
     margin-bottom: 30px;
     align-items: center;
@@ -46,7 +46,6 @@
      
  }
 
- 
  
  .text { 
      font-weight: normal;

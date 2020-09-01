@@ -1,4 +1,35 @@
-/*блоки*/
+//блоки
+
+.btn{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding-top: 6px;
+      padding-right: 22px;
+      padding-bottom: 6px;
+      padding-left: 22px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn:hover,
+ .btn:focus{background:$accent-bg-color;
+color: $features-bg-color;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+
+
+
+
+.section {
+    padding-bottom: 94px;
+      padding-top: 94px; 
+      border-top: 1px solid#ECECEC;
+  }
 
 .block-text{
     padding-left: 24px;
@@ -48,3 +79,90 @@
   .container-li:nth-child(3n+0) {
     margin-right: 0;
   }
+
+  
+  .container-filter {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+      
+  }
+  .button:not(:last-child) {
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    
+    }
+    .subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.03em;
+    color: $sec-txt-color;
+    text-decoration: none;
+    
+    }
+    
+      
+    
+    
+    .text { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $part-txt-color;
+    }
+    
+    .box-hover {
+      position: relative;
+      display: block;
+      overflow: hidden;
+    }
+    
+    .portfolio-link img{
+      display: block;
+    }
+    
+    .port-text {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    
+      padding: 63px 24px;
+    
+      background-color: rgba(33, 150, 243, 0.9);
+    
+    
+      transform: translateY(100%);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .text {
+      padding: 0;
+      margin: 0;
+      color: 250ms;
+    }
+    .portfolio-link:hover .port-text {
+      overflow: visible;
+      transform: translateY(0);
+      transition-duration: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+
+    

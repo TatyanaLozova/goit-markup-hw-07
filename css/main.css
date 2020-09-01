@@ -370,6 +370,13 @@ body {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -398,7 +405,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.conteiner-a {
+.container-heder {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -509,6 +516,73 @@ body {
   width: 10px;
   height: 15px;
   fill: currentColor;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  list-style: none;
+}
+
+.flex-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-nav li + li {
+  margin-left: 50px;
+}
+
+.flex-nav li {
+  /*outline: 2px solid #2196f3;*/
+}
+
+.menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-items li + li {
+  margin-left: 30px;
+}
+
+.menu-button li + li {
+  margin-left: 8px;
+  list-style: none;
+}
+
+/*синяя полоска актив портфолио*/
+.active-link::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  content: "";
+  top: 40px;
+  left: 0px;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background: #2196f3;
+  -webkit-transform: translateY(34px);
+          transform: translateY(34px);
 }
 
 .overlay {

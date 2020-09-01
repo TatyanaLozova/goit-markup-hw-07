@@ -370,6 +370,13 @@ body {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -398,7 +405,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.conteiner-a {
+.container-heder {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -511,7 +518,106 @@ body {
   fill: currentColor;
 }
 
-/*блоки*/
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  list-style: none;
+}
+
+.flex-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-nav li + li {
+  margin-left: 50px;
+}
+
+.flex-nav li {
+  /*outline: 2px solid #2196f3;*/
+}
+
+.menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-items li + li {
+  margin-left: 30px;
+}
+
+.menu-button li + li {
+  margin-left: 8px;
+  list-style: none;
+}
+
+/*синяя полоска актив портфолио*/
+.active-link::after {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  content: "";
+  top: 40px;
+  left: 0px;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background: #2196f3;
+  -webkit-transform: translateY(34px);
+          transform: translateY(34px);
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  background: #2196f3;
+  color: #f5f4fa;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  border-top: 1px solid #ECECEC;
+}
+
 .block-text {
   padding-left: 24px;
   padding-right: 24px;
@@ -563,6 +669,92 @@ body {
 
 .container-li:nth-child(3n+0) {
   margin-right: 0;
+}
+
+.container-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button:not(:last-child) {
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.box-hover {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.portfolio-link img {
+  display: block;
+}
+
+.port-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+  color: 250ms;
+}
+
+.portfolio-link:hover .port-text {
+  overflow: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-duration: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+          transition-duration: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {

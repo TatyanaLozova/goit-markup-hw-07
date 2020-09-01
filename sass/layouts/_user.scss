@@ -1,6 +1,42 @@
 
 //Наша команда
+.user{
+  background: $features-bg-color;
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-left: auto;
+ margin-right: auto;
+ height: 708px;
+ padding-top: 94px;
+ }
+ 
+ 
+ .our-team {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  }
 
+.our-team li{
+  background: $main-bg-color;
+
+}
+
+  
+.our-items{
+ width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.our-items:nth-child(4n+0) {
+  margin-right: 0;
+}
+
+.our-items {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;}
 
  .headline {
     font-style: normal;
@@ -14,17 +50,7 @@
     
      }
       
-    .user{
-     background: $features-bg-color;
-     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 708px;
-    padding-top: 94px;
-    }
-    
+   
     .caption{
     font-style: normal;
     font-weight: normal;
@@ -36,38 +62,6 @@
     text-decoration: none;
     }
   
-  .our-team {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    }
-  
-  .our-team li{
-    background: $main-bg-color;
-  
-  }
-  
-  .our-team{
-   display: flex;
-   padding: 0;
-    margin: 0;
-   
-  
-    }
-    
-  .our-items{
-   width: calc((100% - 30px * 3) / 4);
-    margin-right: 30px;
-  }
-  
-  .our-items:nth-child(4n+0) {
-    margin-right: 0;
-  }
-  
-  .our-items {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;}
     
   
   .social-flex{
@@ -88,14 +82,12 @@
     margin: 0;
     color:#afb1b8 ;
     
-  }
-  
-  .social:hover,
-  .social:focus {
+    &:hover,
+    &:focus {
      background-color: $accent-color;
-     color: #ffffff;
+     color: $main-bg-color;
      transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
   }
   
   .icon-social {

@@ -4,8 +4,8 @@
     font-style: normal;
     font-weight: 400;
     src:
-         url('/fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), 
-         url('/fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'); 
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'); 
 }
 
 // roboto-500 
@@ -14,8 +14,8 @@
     font-style: normal;
     font-weight: 500;
     src: 
-         url('/fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'), 
-         url('/fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'); 
+         url('../fonts/roboto-v20-latin_cyrillic-500.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin_cyrillic-500.woff') format('woff'); 
   }
 //roboto-700 
   @font-face {
@@ -24,8 +24,8 @@
     font-weight: 700;
     
     src: 
-         url('/fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'), 
-         url('/fonts/roboto-v20-latin_cyrillic-700.woff') format('woff');
+         url('../fonts/roboto-v20-latin_cyrillic-700.woff2') format('woff2'), 
+         url('../fonts/roboto-v20-latin_cyrillic-700.woff') format('woff');
   }
 
 //raleway-regular 400
@@ -35,8 +35,8 @@
     font-weight: 400;
     src: 
         
-         url('/fonts/raleway-v17-latin_cyrillic-regular.woff2') format('woff2'), 
-         url('/fonts/raleway-v17-latin_cyrillic-regular.woff') format('woff');
+         url('../fonts/raleway-v17-latin_cyrillic-regular.woff2') format('woff2'), 
+         url('../fonts/raleway-v17-latin_cyrillic-regular.woff') format('woff');
 }
 
 //raleway-700 - 
@@ -47,6 +47,6 @@
     font-weight: 700;
     src: 
         
-         url('/fonts/raleway-v17-latin_cyrillic-700.woff2') format('woff2'),
-         url('/fonts/raleway-v17-latin_cyrillic-700.woff') format('woff');
+         url('../fonts/raleway-v17-latin_cyrillic-700.woff2') format('woff2'),
+         url('../fonts/raleway-v17-latin_cyrillic-700.woff') format('woff');
   }

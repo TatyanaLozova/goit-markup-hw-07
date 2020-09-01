@@ -13,7 +13,7 @@
     }
 
     .logo-part {
-      color:$accent-color;
+      color: $accent-color;
     }
     .site-nav {
       display: flex;
@@ -148,10 +148,6 @@
 .flex-nav li + li {
  margin-left: 50px;
 }
-.flex-nav li {
-/*outline: 2px solid #2196f3;*/
-}
-
 
   .menu-items {
     display: flex;
@@ -165,7 +161,7 @@
 
   
   }
-  /*синяя полоска актив портфолио*/
+  //синяя полоска актив портфолио
 .active-link::after {
   display: flex;  
   content: "";

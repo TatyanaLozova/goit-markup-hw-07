@@ -52,8 +52,8 @@
     
     &:focus,
     &:hover {
-      color:  #2196f3;
-      fill:  #2196f3; }
+      color: $accent-color;
+      fill:  $accent-color; }
     
     }
     
@@ -92,15 +92,14 @@
     line-height: 1.14px;
     letter-spacing: 0.02em; 
     color: $sec-txt-color;
-    color: #757575;
-    fill: #757575;
+    fill:$sec-txt-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:focus,
     &:hover {
-     color:  #2196f3;
-     fill:  #2196f3;}
+     color: $accent-color;
+     fill:  $accent-color;}
     }
 
     .menu-contact li:nth-child(2n+0){
@@ -150,7 +149,7 @@
   height: 4px;
   width: 100%;
   border-radius: 2px;
-  background: #2196f3;
+  background:$accent-color;
   transform: translateY(34px);
 
 }

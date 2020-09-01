@@ -9,20 +9,16 @@
     border-radius: 4px;
     border: 1px solid #afb1b8;
     color: #afb1b8;
-   
-  }
-  .client-sprite:hover,
-  .client-sprite:focus {
+    fill: currentColor;
+  
+  &:hover,
+  &:focus {
     color: $accent-color;
     border-color: $accent-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
   }
   
-  .client-sprite {
-    fill: currentColor;
-  
-  }
   .client-icon {
     width: 44px;
     height: 59px;
@@ -48,8 +44,6 @@
    width: calc((100% - 30px * 5) / 6);
     margin-right: 30px;
   
-  }
-  
-  .clients-list:nth-child(6n+0) {
-    margin-right: 0;
+  &:nth-child(6n+0) {
+    margin-right: 0;}
   }

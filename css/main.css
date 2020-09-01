@@ -477,7 +477,6 @@ h3 {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: #757575;
-  color: #757575;
   fill: #757575;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
@@ -1142,20 +1141,16 @@ h1, h2, h3, h4 {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   color: #afb1b8;
+  fill: currentColor;
 }
 
-.client-sprite:hover,
-.client-sprite:focus {
+.client-sprite:hover, .client-sprite:focus {
   color: #2196f3;
   border-color: #2196f3;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.client-sprite {
-  fill: currentColor;
 }
 
 .client-icon {

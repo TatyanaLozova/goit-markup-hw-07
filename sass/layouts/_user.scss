@@ -17,10 +17,10 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  }
 
-.our-team li{
-  background: $main-bg-color;
+
+& li{
+  background: $main-bg-color;}
 
 }
 
@@ -28,15 +28,14 @@
 .our-items{
  width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
-}
-
-.our-items:nth-child(4n+0) {
-  margin-right: 0;
-}
-
-.our-items {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;}
+  border-radius: 0px 0px 4px 4px;
+
+
+  &:nth-child(4n+0) {
+  margin-right: 0;}
+}
+
 
  .headline {
     font-style: normal;
